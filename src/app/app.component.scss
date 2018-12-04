@@ -1,0 +1,59 @@
+@import '../assets/variables';
+
+.app-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 0 50px;
+  background-color: #ec407a;
+
+  &__logo {
+    height: 100%;
+    width: auto;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+.content {
+  padding: 50px 300px;
+  height: calc(100% - 50px - 70px - 100px);
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 10px 50px;
+  background-color: $secondary-color-light;
+
+  &__info {
+    line-height: 50px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+  &--big {
+    font-size: 24px;
+  }
+
+  &--small {
+    font-size: 12px;
+  }
+
+  &.white {
+    color: white;
+  }
+
+  &.black {
+    color: black;
+  }
+}

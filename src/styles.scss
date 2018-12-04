@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+@import './assets/_variables.scss';
+
+body {
+  margin: 0;
+  background-color: $secondary-color-dark;
+}
+
+.flexItem {
+  order: 1;
+}
+
+.flexStart {
+  align-self: flex-start;
+}
+
+.flexEnd {
+  align-self: flex-end;
+}
