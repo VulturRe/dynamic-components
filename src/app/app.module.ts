@@ -3,14 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentHostDirective } from './_directives/component-host.directive';
-import { ContentWrapperComponent } from './components/content-wrapper/content-wrapper.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ComponentHostDirective,
-    ContentWrapperComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
